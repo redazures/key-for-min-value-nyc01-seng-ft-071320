@@ -3,8 +3,11 @@
 
 def key_for_min_value(name_hash)
   lowest=""
-  counter=name_hash[0]
+  counter=0
   name_hash.each do |key,value|
     lowest=key if value
+    
   end
 end
+
+ikea = {:chair => 25, :table => 85, :mattress => 450}
