@@ -14,5 +14,5 @@ end
 
 idea={}
 #ikea = {:chair => 25, :table => 85, :mattress => 450}
-p key_for_min_value(ikea)
+# p key_for_min_value(ikea)
 p ikea
