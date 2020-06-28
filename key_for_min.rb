@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     tracker=value if value<tracker
     # if value<tracker
   end
-  # lowest
+  lowest
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}
