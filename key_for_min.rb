@@ -3,10 +3,10 @@
 
 def key_for_min_value(name_hash)
   lowest=""
-  counter=0
+  tracker=0
   name_hash.each do |key,value|
-    lowest=key if value
-
+    lowest=key,tracker=value if value
+    
   end
 end
 
